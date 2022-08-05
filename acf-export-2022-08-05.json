@@ -1,0 +1,1262 @@
+[
+    {
+        "key": "group_5ff2d3da48947",
+        "title": "Charity",
+        "fields": [
+            {
+                "key": "field_5ff2d3e72ea1a",
+                "label": "Charity Item",
+                "name": "charity_item",
+                "type": "post_object",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "post_type": [
+                    "product"
+                ],
+                "taxonomy": "",
+                "allow_null": 0,
+                "multiple": 0,
+                "return_format": "id",
+                "ui": 1
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_template",
+                    "operator": "==",
+                    "value": "page-charity.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_5ecc593a7a4bd",
+        "title": "Homepage",
+        "fields": [
+            {
+                "key": "field_5f0ad0fb95d12",
+                "label": "Short Repeater",
+                "name": "short_repeater",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "field_5f0adff39817a",
+                "min": 0,
+                "max": 2,
+                "layout": "table",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_5f0adff39817a",
+                        "label": "Title",
+                        "name": "title",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_5f0adffa9817b",
+                        "label": "Content",
+                        "name": "content",
+                        "type": "textarea",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "maxlength": "",
+                        "rows": "",
+                        "new_lines": "wpautop"
+                    },
+                    {
+                        "key": "field_5f0ae0069817c",
+                        "label": "Button Text",
+                        "name": "button_text",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_5f0ae0119817d",
+                        "label": "Button URL",
+                        "name": "button_url",
+                        "type": "url",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_5f0ad4b795d17",
+                "label": "Hotel Section Title",
+                "name": "hotel_section_title",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5f0ad4e295d18",
+                "label": "Hotel Section Description",
+                "name": "hotel_section_description",
+                "type": "wysiwyg",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 1,
+                "delay": 0
+            },
+            {
+                "key": "field_5f0ad5b895d19",
+                "label": "Hotel Info",
+                "name": "hotel_info",
+                "type": "wysiwyg",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 1,
+                "delay": 0
+            },
+            {
+                "key": "field_5f0ad66595d1a",
+                "label": "Hotel Buttons",
+                "name": "hotel_buttons",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "field_5f0ae0939817e",
+                "min": 0,
+                "max": 2,
+                "layout": "table",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_5f0ae0939817e",
+                        "label": "Button Text",
+                        "name": "button_text",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_5f0ae0a49817f",
+                        "label": "Button URL",
+                        "name": "button_url",
+                        "type": "url",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_5f0ad71795d1d",
+                "label": "Map iframe URL",
+                "name": "map_iframe_url",
+                "type": "url",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            },
+            {
+                "key": "field_5f0ae10098180",
+                "label": "Long Repeater",
+                "name": "long_repeater",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "field_5f0ae10098181",
+                "min": 0,
+                "max": 4,
+                "layout": "table",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_5f0ae10098181",
+                        "label": "Title",
+                        "name": "title",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_5f0ae10098182",
+                        "label": "Content",
+                        "name": "content",
+                        "type": "textarea",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "maxlength": "",
+                        "rows": "",
+                        "new_lines": "wpautop"
+                    },
+                    {
+                        "key": "field_5f0ae10098183",
+                        "label": "Button Text",
+                        "name": "button_text",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_5f0ae10098184",
+                        "label": "Button URL",
+                        "name": "button_url",
+                        "type": "url",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_5f0c18163d109",
+                "label": "Social Title",
+                "name": "social_title",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5f0ad77b95d23",
+                "label": "Social Buttons",
+                "name": "social_buttons",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "field_5f0ae16a98185",
+                "min": 0,
+                "max": 0,
+                "layout": "table",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_5f0ae16a98185",
+                        "label": "Button Text",
+                        "name": "button_text",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_5f0ae1b698186",
+                        "label": "Button Icon",
+                        "name": "button_icon",
+                        "type": "select",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "none:None": "none:None",
+                            "twitter:Twitter": "twitter:Twitter",
+                            "facebook:Facebook": "facebook:Facebook",
+                            "discord:Discord": "discord:Discord",
+                            "telegram:Telegram": "telegram:Telegram"
+                        },
+                        "default_value": [
+                            "none"
+                        ],
+                        "allow_null": 0,
+                        "multiple": 0,
+                        "ui": 0,
+                        "return_format": "value",
+                        "ajax": 0,
+                        "placeholder": ""
+                    },
+                    {
+                        "key": "field_5f0ae21a98187",
+                        "label": "Button URL",
+                        "name": "button_url",
+                        "type": "url",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": ""
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "page-homepage.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_5f1941025966e",
+        "title": "Hotel",
+        "fields": [
+            {
+                "key": "field_5f194138756f5",
+                "label": "Hotel Info",
+                "name": "hotel_info",
+                "type": "wysiwyg",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 1,
+                "delay": 0
+            },
+            {
+                "key": "field_5f194269756f6",
+                "label": "Hotel Buttons",
+                "name": "hotel_buttons",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "field_5f194283756f7",
+                "min": 0,
+                "max": 0,
+                "layout": "table",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_5f194283756f7",
+                        "label": "button Text",
+                        "name": "button_text",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_5f194296756f8",
+                        "label": "Button URL",
+                        "name": "button_url",
+                        "type": "url",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_5f1943a2756f9",
+                "label": "Map iframe URL",
+                "name": "map_iframe_url",
+                "type": "url",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            },
+            {
+                "key": "field_5f1943da756fa",
+                "label": "Column Left",
+                "name": "column_left",
+                "type": "wysiwyg",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 1,
+                "delay": 0
+            },
+            {
+                "key": "field_5f19440a756fb",
+                "label": "Column Right",
+                "name": "column_right",
+                "type": "wysiwyg",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 1,
+                "delay": 0
+            },
+            {
+                "key": "field_5f19474f756fc",
+                "label": "Hotel Rooms Title",
+                "name": "hotel_rooms_title",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5f194782756fd",
+                "label": "Hotel Rooms Info",
+                "name": "hotel_rooms_info",
+                "type": "wysiwyg",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 1,
+                "delay": 0
+            },
+            {
+                "key": "field_5f194813756fe",
+                "label": "Hotel Rooms Rate",
+                "name": "hotel_rooms_rate",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "field_5f194826756ff",
+                "min": 0,
+                "max": 0,
+                "layout": "row",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_5f194826756ff",
+                        "label": "Name",
+                        "name": "name",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_5f5091503d4f0",
+                        "label": "Photo",
+                        "name": "photo",
+                        "type": "image",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "id",
+                        "preview_size": "medium",
+                        "library": "all",
+                        "min_width": "",
+                        "min_height": "",
+                        "min_size": "",
+                        "max_width": "",
+                        "max_height": "",
+                        "max_size": "",
+                        "mime_types": ""
+                    },
+                    {
+                        "key": "field_5f19487775700",
+                        "label": "Price",
+                        "name": "price",
+                        "type": "number",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "min": "",
+                        "max": "",
+                        "step": ""
+                    },
+                    {
+                        "key": "field_5f1948d075701",
+                        "label": "Description",
+                        "name": "description",
+                        "type": "wysiwyg",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "tabs": "all",
+                        "toolbar": "full",
+                        "media_upload": 1,
+                        "delay": 0
+                    }
+                ]
+            },
+            {
+                "key": "field_5f194b9e75703",
+                "label": "Hotel Book Button Text",
+                "name": "hotel_book_button_text",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5f194bb375704",
+                "label": "Hotel Book Button URL",
+                "name": "hotel_book_button_url",
+                "type": "url",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            },
+            {
+                "key": "field_5f194bf575705",
+                "label": "Extra Blocks",
+                "name": "extra_blocks",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "field_5f194c1c75706",
+                "min": 0,
+                "max": 0,
+                "layout": "row",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_5f194c1c75706",
+                        "label": "Title",
+                        "name": "title",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_5f194c2375707",
+                        "label": "Content",
+                        "name": "content",
+                        "type": "wysiwyg",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "tabs": "all",
+                        "toolbar": "full",
+                        "media_upload": 1,
+                        "delay": 0
+                    },
+                    {
+                        "key": "field_5f194c2f75708",
+                        "label": "Button Text",
+                        "name": "button_text",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_5f194c3775709",
+                        "label": "Button URL",
+                        "name": "button_url",
+                        "type": "url",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": ""
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_template",
+                    "operator": "==",
+                    "value": "page-hotel.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_5ff21de0b7dff",
+        "title": "Livestream",
+        "fields": [
+            {
+                "key": "field_5ff21debf5b60",
+                "label": "Twitch Embed Code",
+                "name": "twitch_embed_code",
+                "type": "textarea",
+                "instructions": "Enter the <kbd>&lt;iframe&gt;<\/kbd> code for the Twitch embed. Do not include <kbd>width<\/kbd> and <kbd>height<\/kbd> attributes.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": "",
+                "new_lines": ""
+            },
+            {
+                "key": "field_5ff21f0df5b61",
+                "label": "WidgetBot Embed Code",
+                "name": "widgetbot_embed_code",
+                "type": "textarea",
+                "instructions": "Enter the <kbd>&lt;iframe&gt;<\/kbd> code for the WidgetBot embed. Do not include <kbd>width<\/kbd> and <kbd>height<\/kbd> attributes.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": "",
+                "new_lines": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_template",
+                    "operator": "==",
+                    "value": "page-livestream.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_5f0c2f8da30f2",
+        "title": "Registration",
+        "fields": [
+            {
+                "key": "field_5f0c2fbcd6af9",
+                "label": "Reg Button Text",
+                "name": "reg_button_text",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5f0c3002d6afa",
+                "label": "Reg Button URL",
+                "name": "reg_button_url",
+                "type": "url",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            },
+            {
+                "key": "field_5f0c3055d6afc",
+                "label": "Reg Tiers",
+                "name": "reg_tiers",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "field_5f0c306dd6afd",
+                "min": 0,
+                "max": 0,
+                "layout": "row",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_5f0cba720d8c4",
+                        "label": "Group",
+                        "name": "group",
+                        "type": "select",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "Badge Types": "Badge Types",
+                            "Spirit (Non-Attending) Badges": "Spirit (Non-Attending) Badges",
+                            "Weekend Pass": "Weekend Pass",
+                            "Day Pass": "Day Pass"
+                        },
+                        "default_value": [
+                            "Badge Types"
+                        ],
+                        "allow_null": 0,
+                        "multiple": 0,
+                        "ui": 0,
+                        "return_format": "value",
+                        "ajax": 0,
+                        "placeholder": ""
+                    },
+                    {
+                        "key": "field_5f0c306dd6afd",
+                        "label": "Title",
+                        "name": "title",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_5f0cb3b45d9b1",
+                        "label": "Icon",
+                        "name": "icon",
+                        "type": "image",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "id",
+                        "preview_size": "medium",
+                        "library": "all",
+                        "min_width": "",
+                        "min_height": "",
+                        "min_size": "",
+                        "max_width": "",
+                        "max_height": "",
+                        "max_size": "",
+                        "mime_types": ""
+                    },
+                    {
+                        "key": "field_5f0cb3ed5d9b2",
+                        "label": "Color",
+                        "name": "color",
+                        "type": "color_picker",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "#ddddff"
+                    },
+                    {
+                        "key": "field_5f0c30ded6afe",
+                        "label": "Price",
+                        "name": "price",
+                        "type": "number",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "min": "",
+                        "max": "",
+                        "step": ""
+                    },
+                    {
+                        "key": "field_5f0c3119d6aff",
+                        "label": "Discounted Price",
+                        "name": "disc_price",
+                        "type": "number",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "min": "",
+                        "max": "",
+                        "step": ""
+                    },
+                    {
+                        "key": "field_5f0c313dd6b00",
+                        "label": "Description",
+                        "name": "description",
+                        "type": "wysiwyg",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "tabs": "all",
+                        "toolbar": "full",
+                        "media_upload": 1,
+                        "delay": 0
+                    }
+                ]
+            },
+            {
+                "key": "field_5f0c319dd6b01",
+                "label": "Reg Info",
+                "name": "reg_info",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "field_5f0c31c9d6b02",
+                "min": 0,
+                "max": 0,
+                "layout": "row",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_5f0c31c9d6b02",
+                        "label": "Title",
+                        "name": "title",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_5f0c31d2d6b03",
+                        "label": "Content",
+                        "name": "content",
+                        "type": "wysiwyg",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "tabs": "all",
+                        "toolbar": "full",
+                        "media_upload": 1,
+                        "delay": 0
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_template",
+                    "operator": "==",
+                    "value": "page-registration.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]
